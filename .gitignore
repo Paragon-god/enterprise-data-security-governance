@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data and generated outputs
+data/
+runtime_outputs/
+*.parquet
+*.key
+*.pem
+*.env
+.env
+
+# Notebooks and operating system files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+secrets/
+credentials/
+*.secret

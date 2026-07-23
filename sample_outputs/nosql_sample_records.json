@@ -1,0 +1,54 @@
+[
+  {
+    "record_type": "category_performance",
+    "name": "Technology",
+    "total_sales": 836154.03,
+    "total_profit": 145454.95,
+    "total_quantity": 6939,
+    "unique_orders": 1544
+  },
+  {
+    "record_type": "category_performance",
+    "name": "Furniture",
+    "total_sales": 741999.8,
+    "total_profit": 18451.27,
+    "total_quantity": 8028,
+    "unique_orders": 1764
+  },
+  {
+    "record_type": "category_performance",
+    "name": "Office Supplies",
+    "total_sales": 719047.03,
+    "total_profit": 122490.8,
+    "total_quantity": 22906,
+    "unique_orders": 3742
+  },
+  {
+    "record_type": "regional_performance",
+    "name": "West",
+    "total_sales": 725457.82,
+    "total_profit": 108418.45,
+    "unique_orders": 1611
+  },
+  {
+    "record_type": "regional_performance",
+    "name": "East",
+    "total_sales": 678781.24,
+    "total_profit": 91522.78,
+    "unique_orders": 1401
+  },
+  {
+    "record_type": "regional_performance",
+    "name": "Central",
+    "total_sales": 501239.89,
+    "total_profit": 39706.36,
+    "unique_orders": 1175
+  },
+  {
+    "record_type": "regional_performance",
+    "name": "South",
+    "total_sales": 391721.91,
+    "total_profit": 46749.43,
+    "unique_orders": 822
+  }
+]

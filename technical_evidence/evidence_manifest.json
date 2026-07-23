@@ -1,0 +1,86 @@
+[
+  {
+    "evidence_id": "EV-01",
+    "title": "Data Quality Validation",
+    "file": "technical-evidence/sanitized-evidence/EV-01_data-quality-validation.png",
+    "description": "Corrected date and numeric fields were checked for nulls after controlled CSV parsing. All six critical fields returned zero null values.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-02",
+    "title": "Data Profiling and Outlier Awareness",
+    "file": "technical-evidence/sanitized-evidence/EV-02_data-profiling.png",
+    "description": "Spark profiling covered 9,994 records and exposed skewed sales values, severe loss outliers, and a maximum discount of 80%.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-03",
+    "title": "Loss and Anomaly Detection",
+    "file": "technical-evidence/sanitized-evidence/EV-03_loss-anomaly-detection.png",
+    "description": "The implementation identified 1,871 loss-making rows (18.72%) and ranked the most severe losses for investigation.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-04",
+    "title": "Governed Analytical Output",
+    "file": "technical-evidence/sanitized-evidence/EV-04_category-performance.png",
+    "description": "Category-level aggregation produced traceable sales, profit, quantity, and unique-order metrics for management reporting.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-05",
+    "title": "Spark Processing Performance Test",
+    "file": "technical-evidence/sanitized-evidence/EV-05_spark-performance-test.png",
+    "description": "A local prototype test compared uncached and cached aggregation. Cached processing completed faster in this run; the result is not represented as an enterprise benchmark.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-06",
+    "title": "Enterprise Data Security Architecture",
+    "file": "technical-evidence/sanitized-evidence/EV-06_enterprise-data-security-architecture.png",
+    "description": "The architecture connects source, ingestion, storage, processing, analytics, NoSQL serving, and visualisation with cross-cutting security and governance.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-07",
+    "title": "Retail Analytics Dashboard",
+    "file": "technical-evidence/sanitized-evidence/EV-07_retail-analytics-dashboard.png",
+    "description": "The dashboard presents filtered transaction metrics and sales-versus-profit analysis for authorised decision support.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-08",
+    "title": "Model Governance Dashboard",
+    "file": "technical-evidence/sanitized-evidence/EV-08_model-governance-dashboard.png",
+    "description": "The model view reports MAE 57.49, RMSE 223.13, and test R-squared 0.427, supporting transparent performance communication.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-09",
+    "title": "Dashboard Filter Validation",
+    "file": "technical-evidence/sanitized-evidence/EV-09_dashboard-filter-validation.png",
+    "description": "Technology and West filters returned 599 transactions, sales of 251,991.80, profit of 44,303.65, and average discount of 0.1339.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-10",
+    "title": "NoSQL Document Insertion",
+    "file": "technical-evidence/sanitized-evidence/EV-10_nosql-document-insertion.png",
+    "description": "Twelve analytical documents were inserted successfully and the collection count confirmed all records were present.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-11",
+    "title": "Filtered NoSQL Query",
+    "file": "technical-evidence/sanitized-evidence/EV-11_filtered-nosql-query.png",
+    "description": "A regional query returned West, East, and Central for total sales above 500,000, demonstrating filtering, projection, and sorting.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  },
+  {
+    "evidence_id": "EV-12",
+    "title": "Data Governance Query Application",
+    "file": "technical-evidence/sanitized-evidence/EV-12_query-application-filter-test.png",
+    "description": "The web interface sent a filtered request to MongoDB Atlas and returned three matching regional records. Academic and browser identifiers were cropped; execution content is unchanged.",
+    "sanitisation": "Browser, account, academic, and temporary link information was cropped where necessary. Technical output values were not altered."
+  }
+]

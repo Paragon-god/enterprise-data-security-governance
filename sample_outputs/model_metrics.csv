@@ -1,0 +1,6 @@
+metric,value
+Training R Squared,0.1665
+Adjusted R Squared,0.1654
+Test MAE,57.49
+Test RMSE,223.13
+Test R Squared,0.427

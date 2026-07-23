@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this portfolio implementation if you reference it."
+title: "Enterprise Data Security Governance and Technical Controls Implementation"
+type: software
+authors:
+  - family-names: Goodluck
+    given-names: John Chidi
+repository-code: "https://github.com/Paragon-god/enterprise-data-security-governance"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-23
+keywords:
+  - data security governance
+  - governance risk and compliance
+  - privacy
+  - model governance
+  - Apache Spark
+  - MongoDB
