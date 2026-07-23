@@ -8,7 +8,7 @@ A working enterprise analytics prototype translated into a complete data securit
 
 > **Portfolio classification:** This is a simulated portfolio implementation. It is not a client engagement, production deployment, regulatory certification, or legal opinion.
 
-[View the recruiter friendly Notion case study](https://app.notion.com/p/3a693b2a32e7814b89c8d8b6e3b652fe)
+[View the recruiter friendly Notion case study](https://cautious-satin-6b0.notion.site/Enterprise-Data-Security-Governance-and-Technical-Controls-Implementation-Portfolio-Case-Study-3a693b2a32e7814b89c8d8b6e3b652fe)
 
 ## Why this project matters
 
